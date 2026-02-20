@@ -6,9 +6,10 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "lint": "eslint src",
+    "lint": "eslint .",
     "preview": "vite preview",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "start": "serve -s dist -l $PORT"
   },
   "dependencies": {
     "@tanstack/react-query": "^5.90.21",
