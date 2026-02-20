@@ -1,0 +1,61 @@
+{
+    "productos": [
+      {
+        "id": 1,
+        "titulo": "iPhone 9",
+        "descripcion": "An apple mobile which is nothing like apple",
+        "precio": 549,
+        "imagen": "https://cdn.dummyjson.com/product-images/beauty/essence-mascara-lash-princess/1.webp",
+        "cantidad" : 1
+      },
+      {
+        "id": 2,
+        "titulo": "iPhone X",
+        "descripcion": "SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...",
+        "precio": 899,
+        "imagen": "https://cdn.dummyjson.com/product-images/beauty/eyeshadow-palette-with-mirror/1.webp",
+        "cantidad" : 1
+      },
+      {
+        "id": 3,
+        "titulo": "Samsung Universe 9",
+        "descripcion": "Samsung's new variant which goes beyond Galaxy to the Universe",
+        "precio": 1249,
+        "category": "smartphones",
+        "imagen": "https://cdn.dummyjson.com/product-images/beauty/powder-canister/1.webp",
+        "cantidad" : 1
+      },
+      {
+        "id": 4,
+        "titulo": "OPPOF19",
+        "descripcion": "OPPO F19 is officially announced on April 2021.",
+        "precio": 280,
+        "imagen": "https://cdn.dummyjson.com/product-images/beauty/red-lipstick/1.webp",
+        "cantidad" : 1
+      },
+      {
+        "id": 5,
+        "titulo": "Huawei P30",
+        "descripcion": "Huawei’s re-badged P30 Pro New Edition was officially unveiled yesterday in Germany and now the device has made its way to the UK.",
+        "precio": 499,
+        "imagen": "https://cdn.dummyjson.com/product-images/beauty/red-nail-polish/1.webp",
+        "cantidad" : 1
+      },
+      {
+        "id": 6,
+        "titulo": "MacBook Pro",
+        "descripcion": "MacBook Pro 2021 with mini-LED display may launch between September, November",
+        "precio": 1749,
+        "imagen": "https://cdn.dummyjson.com/product-images/fragrances/calvin-klein-ck-one/1.webp",
+        "cantidad" : 1
+      },
+      {
+        "id": 7,
+        "titulo": "Samsung Galaxy Book",
+        "descripcion": "Samsung Galaxy Book S (2020) Laptop With Intel Lakefield Chip, 8GB of RAM Launched",
+        "precio": 1499,
+        "imagen": "https://cdn.dummyjson.com/product-images/fragrances/chanel-coco-noir-eau-de/1.webp",
+        "cantidad" : 1
+      }
+    ]
+  }
