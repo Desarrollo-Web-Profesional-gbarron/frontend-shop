@@ -1,12 +1,21 @@
-import { BsCart } from "react-icons/bs"
+import { BsCart } from "react-icons/bs";
+import React from "react";
+import { Link } from "react-router-dom";
+import { CartContext } from "../Features/ContextProvider";
 
 const NavBar = () => {
+  const { cart } = React.useContext(CartContext);
   return (
     <div className="d-flex justify-content-between bg-secondary py-3 px-5 text-white">
-      <a href="" className="navbar-brand fs-4 fw-bolder">Carrito</a>
-      <a href="" className="navbar-link fs-5 text-white"><BsCart/></a>
+      <Link to="/" className="navbar-brand fs-4 fw-bolder">
+        Carrito
+      </Link>
+      <Link to="/cart" className="navbar-link fs-5 text-white">
+        <BsCart />
+        {cart.length}
+      </Link>
     </div>
-  )
-}
+  );
+};
 
-export default NavBar
+export default NavBar;
